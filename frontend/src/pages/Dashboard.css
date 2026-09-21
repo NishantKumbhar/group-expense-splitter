@@ -13,7 +13,7 @@ body {
     sans-serif;
 
   background: #f6f8fb;
-  color: #1d2939;
+  color: #111827;
 }
 
 button {
@@ -45,11 +45,13 @@ button {
   margin: 0;
   color: #2563eb;
   font-size: 22px;
+  font-weight: 800;
 }
 
 .dashboard-header span {
   font-size: 12px;
-  color: #667085;
+  color: #374151;
+  font-weight: 600;
 }
 
 .header-actions {
@@ -69,7 +71,7 @@ button {
   color: white;
 
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
 
   cursor: pointer;
 }
@@ -101,16 +103,21 @@ button {
 
   font-size: 30px;
   line-height: 1.25;
+
+  color: #111827;
+  font-weight: 800;
 }
 
 .welcome-section p {
   margin: 0;
-  color: #667085;
+
+  color: #374151;
+  font-weight: 600;
 }
 
 .welcome-small {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   color: #2563eb !important;
 }
 
@@ -127,7 +134,7 @@ button {
   border-radius: 8px;
 
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
 
   cursor: pointer;
 
@@ -152,10 +159,10 @@ button {
 
   border-radius: 7px;
 
-  color: #344054;
+  color: #111827;
 
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
 
   cursor: pointer;
 
@@ -197,9 +204,10 @@ button {
 .summary-card p {
   margin: 0 0 12px;
 
-  color: #667085;
+  color: #111827;
 
   font-size: 14px;
+  font-weight: 700;
 }
 
 .summary-card h2 {
@@ -207,12 +215,16 @@ button {
 
   font-size: 28px;
   line-height: 1.2;
+
+  color: #111827;
+  font-weight: 800;
 }
 
 .summary-card span {
-  color: #98a2b3;
+  color: #374151;
 
   font-size: 12px;
+  font-weight: 600;
 }
 
 /* Dashboard Main Content */
@@ -253,6 +265,9 @@ button {
   margin: 0 0 4px;
 
   font-size: 18px;
+
+  color: #111827;
+  font-weight: 800;
 }
 
 .panel-header p {
@@ -260,7 +275,8 @@ button {
 
   font-size: 13px;
 
-  color: #98a2b3;
+  color: #374151;
+  font-weight: 600;
 }
 
 /* Group List */
@@ -315,7 +331,7 @@ button {
 
   border-radius: 10px;
 
-  font-weight: 700;
+  font-weight: 800;
 
   margin-right: 14px;
 }
@@ -331,6 +347,9 @@ button {
 
   font-size: 15px;
 
+  color: #111827;
+  font-weight: 800;
+
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -341,7 +360,8 @@ button {
 
   font-size: 12px;
 
-  color: #98a2b3;
+  color: #374151;
+  font-weight: 600;
 }
 
 .group-balance {
@@ -357,13 +377,15 @@ button {
 
   font-size: 11px;
 
-  color: #98a2b3;
+  color: #374151;
+  font-weight: 600;
 }
 
 .group-balance strong {
   font-size: 16px;
 
-  color: #344054;
+  color: #111827;
+  font-weight: 800;
 }
 
 /* Empty Group State */
@@ -377,9 +399,10 @@ button {
 
   text-align: center;
 
-  color: #98a2b3;
+  color: #374151;
 
   font-size: 13px;
+  font-weight: 600;
 }
 
 .empty-group-card p {
@@ -443,7 +466,7 @@ button {
   align-items: center;
   justify-content: center;
 
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .action-button strong {
@@ -453,13 +476,15 @@ button {
 
   font-size: 14px;
 
-  color: #344054;
+  color: #111827;
+  font-weight: 800;
 }
 
 .action-button span {
   font-size: 12px;
 
-  color: #98a2b3;
+  color: #374151;
+  font-weight: 600;
 }
 
 /* Auth Status */
@@ -467,9 +492,10 @@ button {
 .auth-status {
   margin-top: 20px;
 
-  color: #98a2b3;
+  color: #374151;
 
   font-size: 12px;
+  font-weight: 600;
 }
 
 /* Tablet */
@@ -507,10 +533,13 @@ button {
 
   .dashboard-header h2 {
     font-size: 19px;
+    font-weight: 800;
   }
 
   .dashboard-header span {
     font-size: 10px;
+    color: #111827;
+    font-weight: 700;
   }
 
   .profile-button {
@@ -534,6 +563,13 @@ button {
 
   .welcome-section h1 {
     font-size: 24px;
+    color: #111827;
+    font-weight: 800;
+  }
+
+  .welcome-section p {
+    color: #111827;
+    font-weight: 600;
   }
 
   .welcome-section > div {
@@ -558,8 +594,20 @@ button {
     padding: 20px;
   }
 
+  .summary-card p {
+    color: #111827;
+    font-weight: 700;
+  }
+
   .summary-card h2 {
     font-size: 24px;
+    color: #111827;
+    font-weight: 800;
+  }
+
+  .summary-card span {
+    color: #1f2937;
+    font-weight: 600;
   }
 
   .dashboard-content {
@@ -576,6 +624,13 @@ button {
 
   .panel-header h2 {
     font-size: 17px;
+    color: #111827;
+    font-weight: 800;
+  }
+
+  .panel-header p {
+    color: #1f2937;
+    font-weight: 600;
   }
 
   .group-card {
@@ -591,6 +646,16 @@ button {
     margin-right: 12px;
   }
 
+  .group-info h3 {
+    color: #111827;
+    font-weight: 800;
+  }
+
+  .group-info p {
+    color: #1f2937;
+    font-weight: 600;
+  }
+
   .group-balance {
     margin-left: auto;
     margin-top: 0;
@@ -600,10 +665,27 @@ button {
 
   .group-balance span {
     font-size: 10px;
+    color: #1f2937;
+    font-weight: 600;
+  }
+
+  .group-balance strong {
+    color: #111827;
+    font-weight: 800;
   }
 
   .action-button {
     padding: 13px;
+  }
+
+  .action-button strong {
+    color: #111827;
+    font-weight: 800;
+  }
+
+  .action-button span {
+    color: #1f2937;
+    font-weight: 600;
   }
 }
 
@@ -629,6 +711,8 @@ button {
 
   .group-info h3 {
     font-size: 14px;
+    color: #111827;
+    font-weight: 800;
   }
 
   .group-balance span {
